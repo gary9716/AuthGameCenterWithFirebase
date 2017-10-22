@@ -1,0 +1,19 @@
+{
+  "name": "authserver",
+  "version": "1.0.0",
+  "description": "do gamecenter auth and create custom token with firebase sdk",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KT",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "firebase-admin": "^5.4.2",
+    "gamecenter-identity-verifier": "^0.1.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
